@@ -3,7 +3,7 @@ import { connect } from 'react-redux' // Redux ile baglantiyi saglar
 
 
 class Counter extends Component { // export default asagida var kaldirdim
-    render() {
+    render() { 
     return ( // Sayac bilgisini Counter.js de tutacagim, Sayac bir statedir, state reduxtan o da reducersten o da counterReducer.js den gelir
       <div>
         <h1>{this.props.counter}</h1> {/* counterReducerden aldi state degerimiz 0 di */}
